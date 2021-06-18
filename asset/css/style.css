@@ -1,0 +1,123 @@
+.home{
+    position:absolute;
+}
+
+.header{
+    transition: 0.3s;
+	transition-property:all;
+	transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+	font-size: 18px;
+}
+
+
+.header:hover{
+    border-radius: 8px;
+    padding: 10px 0px;
+    background-color:#9B9696;
+}
+
+.cardbg{
+   color:black;
+   transition:1s;
+   background:rgba(255,255,255,0.25);
+   box-shadow:0px 8px 15px 0px rgba(107,100,100,0.37);
+   border-radius:10px;
+   border:1px solid rgba(255,255,255,0.18);
+}
+
+.cardbg:hover{
+	transform: scale(1.1);
+}
+
+.logo{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+}
+
+.feature{
+	height:350px;
+	background-image:url('../photos/feature.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	color:white;
+	display:flex;
+	align-items:center;
+}
+
+.feature2{
+	/* height:500px; */
+	background-image:url('../photos/about_me.jpg');
+	background-repeat:no-repeat;
+	color:white;
+	background-size:cover;
+}
+
+.about_me{
+	margin-left:20px;
+}
+
+.about_me1{
+	padding-right:15px;
+	padding-left:15px:
+}
+
+.links{
+	color:white;
+}
+
+.links:hover{
+	color:#E06C6C ;
+}
+
+.footerbg{
+	background-color:#3F3C3B ;
+}
+
+.headlines{
+	font-family: 'Satisfy', cursive;
+	font-size:50px;
+}
+
+.slogan{
+	font-family: 'Dancing Script', cursive;
+}
+
+.thumbnail{
+	width:400px;
+	height:400px;
+}
+
+
+
+/* 
+
+.bg_rt_block {
+    position: absolute;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    width: 500px;
+    right: 0;
+    height: 320px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: gainsboro 50px 30px 10px 2.5px;
+}
+
+.btn1{
+    transition: 0.3s;
+    margin-left: 20px;
+    border-radius: 8px;
+    display: flex;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    padding: 10px;
+    width: 11em;
+    align-items: center;
+    color: white;
+    box-shadow: gainsboro 10px 12px 10px 2.5px;
+} */
+
